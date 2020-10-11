@@ -1,6 +1,7 @@
 -r base.txt
 pytest >= 6.0
-Sphinx >= 3.2 
+Sphinx >= 3.2
+sphinx_rtd_theme >= 0.5
 flake8 >= 3.8
 flake8-builtins
 flake8-import-order

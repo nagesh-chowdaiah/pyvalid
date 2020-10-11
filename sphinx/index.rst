@@ -2,11 +2,18 @@ pyvalid's documentation
 =======================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
 
-   modules.rst
+   content/modules.rst
 
-.. include:: ../README.rst
+.. automodule:: pyvalid
+   :ignore-module-all:
+
+.. include:: content/how-to-install.rst
+
+.. include:: content/how-to-use.rst
+
+.. include:: content/license.rst
 
 
 Indices and tables
