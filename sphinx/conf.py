@@ -60,10 +60,16 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
-    'analytics_id': 'G-LZ3F3WXSDZ',
-    'canonical_url': 'https://uzumaxy.github.io/pyvalid/'
+    'canonical_url': 'https://uzumaxy.github.io/pyvalid/',
+    'display_version': True
 }
 html_favicon = 'assets/favicon.svg'
+html_title = 'pyvalid - Python data validation tool'
+html_short_title = 'pyvalid'
+html_js_files = [
+    'js/gtm.js'
+]
+html_show_sourcelink = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
